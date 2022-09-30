@@ -11,29 +11,28 @@ import java.util.Scanner;
  *
  * @author jacuela
  */
-public class Ejercicio3 {
+public class Ejercicio04 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Scanner scn = new Scanner(System.in);
         
-        int descuento=15;   //descuento del 15%
+        Scanner entrada=new Scanner(System.in);
         
-        System.out.print("Dime el precio del artículo:");
+        double gradosF, gradosC;
         
-        int importe=Integer.parseInt(scn.nextLine());
+        System.out.print("Dime la temperatura en grados fahrenheit:");
         
-        double precioFinal=importe-(importe*descuento/100);
+        gradosF=entrada.nextDouble();
         
-        System.out.println("El precio final ("+descuento+"% de descuento) es:"+precioFinal);
-        System.out.printf("El precio final (%d%% de descuento) es:%.2f \n",descuento,precioFinal);
+        gradosC=(gradosF-32)*5/9;
         
+        System.out.println(gradosF+" Fahrenheit son "+gradosC+" Celsius");
         
-        
-        
+        //Misma salida pero formateada con 1 decimal
+        System.out.printf("%.1f Fahrenheit son %.1f Celsius\n",gradosF,gradosC);
         
         
     }
