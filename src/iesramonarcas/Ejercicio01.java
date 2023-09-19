@@ -19,7 +19,7 @@ public class Ejercicio01 {
     public static void main(String[] args) {
         // TODO code application logic here
         
-        Scanner entrada = new Scanner(System.in);
+        Scanner teclado = new Scanner(System.in);
         
         double x;
         double y,z;
@@ -28,20 +28,20 @@ public class Ejercicio01 {
         
         
         System.out.print("Dime el primer valor:");
-        x=entrada.nextDouble();
+        x=Double.parseDouble(teclado.nextLine());
         
         System.out.print("Dime el segundo valor:");
-        y=entrada.nextDouble();
+        y=Double.parseDouble(teclado.nextLine());
         
         System.out.print("Dime el tercer valor:");
-        z=entrada.nextDouble();
+        z=Double.parseDouble(teclado.nextLine());
         
         
         media=(x+y+z)/3;
         
-        System.out.println("La media de los tres valores es:"+media);
+        System.out.println("La media es:"+media);
         
-        System.out.printf("La media de los tres valores es:%.2f",media);
+        System.out.printf("La media es:%.2f",media);
         System.out.println("");
         
         
