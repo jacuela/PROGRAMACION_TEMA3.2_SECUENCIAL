@@ -25,6 +25,9 @@ public class Ejercicio01 {
         double y,z;
         double media;
         
+        System.out.println("=====================");
+        System.out.println("Ejercicio 01");
+        System.out.println("=====================");
         
         
         System.out.print("Dime el primer valor:");

@@ -43,12 +43,7 @@ public class Ejercicio05 {
         System.out.print("Importe de la venta3: ");
         venta3=Double.parseDouble(scn.nextLine());
         
-    
-        double comision1=venta1*(porcentajeComision/100);
-        double comision2=venta2*(porcentajeComision/100);
-        double comision3=venta3*(porcentajeComision/100);
-        
-        comisionTotal=comision1+comision2+comision3;
+        comisionTotal = (venta1 + venta2 + venta3)*(porcentajeComision/100);
         
         salarioMes=sueldoBase+comisionTotal;
     

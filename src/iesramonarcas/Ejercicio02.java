@@ -25,17 +25,17 @@ public class Ejercicio02 {
     public static void main(String[] args) {
         // TODO code application logic here
         
-        Scanner entrada=new Scanner(System.in);
-        float base, altura, perimetro, area;
+        Scanner teclado=new Scanner(System.in);
+        Double base, altura, perimetro, area;
         
         System.out.println("Calcular area y perimetro del rectangulo");
         System.out.println("----------------------------------------");
 
         System.out.print("Dime la base:");
-        base=Float.parseFloat(entrada.nextLine());
+        base=Double.parseDouble(teclado.nextLine());
         
         System.out.print("Dime la altura:");
-        altura=Float.parseFloat(entrada.nextLine());
+        altura=Double.parseDouble(teclado.nextLine());
         
         perimetro=2*base + 2*altura;
         area=base*altura;

@@ -26,12 +26,10 @@ public class Ejercicio03 {
         
         int importe=Integer.parseInt(scn.nextLine());
         
-        double precioFinal=importe-(importe*descuento/100);
+        double precioFinal=importe-(importe*descuento/100);   
         
         System.out.println("El precio final ("+descuento+"% de descuento) es:"+precioFinal);
         System.out.printf("El precio final (%d%% de descuento) es:%.2f \n",descuento,precioFinal);
-        
-        
         
         
         

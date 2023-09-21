@@ -25,7 +25,7 @@ public class Ejercicio04 {
         
         System.out.print("Dime la temperatura en grados fahrenheit:");
         
-        gradosF=entrada.nextDouble();
+        gradosF=Double.parseDouble(entrada.nextLine());
         
         gradosC=(gradosF-32)*5/9;
         
