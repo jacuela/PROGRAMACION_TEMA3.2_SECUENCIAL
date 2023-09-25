@@ -29,9 +29,7 @@ public class Ejercicio08 {
         int unidades=numero%10;    //cálculo el módulo
         int decenas=numero/10;
         
-        System.out.println("(opcion inicial) El numero invertido es:"+unidades+decenas);
-        
-        
+        System.out.println("(opcion inicial cutre y no válida) El numero invertido es:"+unidades+decenas);
         
         //Obtener realmente el numero invertido en una variable
         
@@ -40,7 +38,7 @@ public class Ejercicio08 {
         numeroInvertido=numeroInvertido+decenas;
         System.out.println("(opcion A) EL numero invertido es :"+numeroInvertido);
         
-        //OPCIONB
+        //OPCIONB - mas rara pero válida
         String cadenaInvertida=""+unidades+decenas;
         int numeroInvertido2=Integer.parseInt(cadenaInvertida);
         System.out.println("(opcion B) EL numero invertido es :"+numeroInvertido2);

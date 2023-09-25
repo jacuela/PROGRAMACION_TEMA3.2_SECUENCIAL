@@ -27,10 +27,14 @@ public class Ejercicio09 {
         System.out.println("    MOSTRAR LAS INICIALES");
         System.out.println("-----------------------------");
         
-        System.out.println("Escribe tu nombre completo: ");
-        nombre=teclado.next();
-        apellido1=teclado.next();
-        apellido2=teclado.next();
+        System.out.println("Nombre: ");
+        nombre=teclado.nextLine();
+        
+        System.out.println("Primer apellido: ");
+        apellido1=teclado.nextLine();
+        
+        System.out.println("Segundo apellido: ");
+        apellido2=teclado.nextLine();
         
 //        System.out.println("Nombre: "+nombre);
 //        System.out.println("Apellido1: "+apellido1);
