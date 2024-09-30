@@ -63,8 +63,7 @@ public class Ejercicio06 {
         
         
         //int notaRedondeada=(int)notaFinal;
-        long notaRedondeada=Math.round(notaFinal);
-        System.out.println("Nota redondeada: "+notaRedondeada);
+        System.out.println("Nota redondeada: "+Math.round(notaFinal));
         
         
         
